@@ -11,18 +11,13 @@ header{
     background-color: rgb(193, 244, 253);
 }
 
-footer{
-    background-color:  rgb(65, 65, 65);
-}
+
 
 .container{
     max-width: 1000px;
     margin: auto;
     padding: 40px;
 }
-
-
-
 
 
 .row{
@@ -138,6 +133,14 @@ ul li{
     height: 450px;
     background-color: aqua;
     border: 2px dashed black;
+}
+
+
+
+/* CSS PART FOOTER */
+
+footer{
+    background-color:  rgb(65, 65, 65);
 }
 
 

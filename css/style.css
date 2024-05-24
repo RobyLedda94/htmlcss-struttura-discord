@@ -11,6 +11,10 @@ header{
     background-color: rgb(193, 244, 253);
 }
 
+footer{
+    background-color:  rgb(65, 65, 65);
+}
+
 .container{
     max-width: 1000px;
     margin: auto;
@@ -19,7 +23,7 @@ header{
 
 
 .content{
-    padding: 10px;
+    padding: 15px;
 }
 
 
@@ -120,6 +124,7 @@ ul li{
 
 .container-bg-black{
     background-color: rgb(65, 65, 65);
+    border-bottom: 1px solid #fff;
 }
 
 .col-30{
@@ -136,3 +141,27 @@ ul li{
     background-color: aqua;
     border: 2px dashed black;
 }
+
+
+.rowtwo{
+    display: flex;
+    justify-content: end;  
+}
+
+
+.col-10{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(123, 246, 255);
+    
+}
+
+.logo, .bottone{
+    background-color: pink;
+    border: 2px dashed black;
+    
+}
+
+
+
+

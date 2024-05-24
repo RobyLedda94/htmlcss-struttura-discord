@@ -15,6 +15,7 @@ header{
 .container{
     max-width: 1000px;
     margin: auto;
+    padding: 40px;
 }
 
 
@@ -25,8 +26,7 @@ header{
 
 .row{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 .col-sm{
@@ -82,10 +82,17 @@ ul li{
 
 
 
-.container-bg-white{
-    padding: 40px;
-    max-width: 1000px;
-    margin: 0 auto ;
+
+
+.container-bg-lightgray{
+    background-color: lightgray;
+}
+
+
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+
 }
 
 

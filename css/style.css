@@ -159,7 +159,11 @@ ul li{
 .logo, .bottone{
     background-color: pink;
     border: 2px dashed black;
-    
+}
+
+.bottone{
+    width: 55px;
+    margin-left: 88%;
 }
 
 
